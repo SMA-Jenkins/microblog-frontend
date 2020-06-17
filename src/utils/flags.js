@@ -1,7 +1,8 @@
 import Rox from 'rox-browser'
 
 export const Flags = {
-  sidebar: new Rox.Flag(false)
+  sidebar: new Rox.Flag(false),
+  title: new ROX.Flag(false)
 };
 
 const options = {
